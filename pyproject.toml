@@ -1,0 +1,19 @@
+[project]
+name = "fs-save-editor"
+version = "0.1.0"
+description = "Flexible Survival Save Editor"
+requires-python = ">=3.8"
+dependencies = [
+    "sv-ttk",
+    "darkdetect",
+    "Pillow",
+]
+
+[project.optional-dependencies]
+windows = [
+    "pywin32",
+]
+
+[tool.uv]
+package = false
+python-preference = "only-system"

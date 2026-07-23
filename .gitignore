@@ -1,0 +1,13 @@
+**/*
+
+!.gitignore
+!config.json
+!favicon.ico
+!FSSaveEditor.pyw
+!FSSaveEditorWin.pyw
+!lang.json
+!LICENSE
+!mise.toml
+!pyproject.toml
+!README.md
+!uv.lock

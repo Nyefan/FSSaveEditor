@@ -1,0 +1,12 @@
+[tools]
+python = "3.13"
+uv = "latest"
+
+[tasks.install]
+description = "Install dependencies"
+run = "uv sync"
+
+[tasks.run]
+description = "Run the save editor"
+run = "uv run python FSSaveEditor.pyw"
+depends = ["install"]

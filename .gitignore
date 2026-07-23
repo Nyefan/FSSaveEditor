@@ -3,11 +3,13 @@
 !.gitignore
 !config.json
 !favicon.ico
-!FSSaveEditor.pyw
-!FSSaveEditorWin.pyw
+!FSSaveEditor.py*
 !lang.json
 !LICENSE
 !mise.toml
 !pyproject.toml
 !README.md
 !uv.lock
+
+!LICENSES/
+!LICENSES/**/*

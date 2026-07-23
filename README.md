@@ -50,7 +50,7 @@ mise run run
 
 With uv:
 ```shell
-uv run python FSSaveEditor.pyw
+uv run python FSSaveEditor.py
 ```
 
 #### TODO:

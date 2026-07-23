@@ -8,5 +8,5 @@ run = "uv sync"
 
 [tasks.run]
 description = "Run the save editor"
-run = "uv run python FSSaveEditor.pyw"
+run = "uv run python FSSaveEditor.py"
 depends = ["install"]
